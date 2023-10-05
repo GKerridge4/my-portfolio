@@ -23,6 +23,16 @@ footer {
     height: 300px;
 }
 
+.music_image {
+    width: 700px;
+    height: auto;
+}
+
+.coffee_image {
+    width: 500px;
+    height: auto;
+}
+
 .certificates {
     width: 500px;
     height: auto;
