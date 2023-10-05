@@ -2,9 +2,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 a {
+header {
+    background-color: black;
+    color: whitesmoke;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-link {
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
 }
 
 .profile_picture {
