@@ -1,6 +1,11 @@
+/* STYLE SHEET FOR MY WEBSITE PORTFOLIO */
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* SECTIONS */
 
 header {
     background-color: black;
@@ -12,6 +17,9 @@ footer {
     color: whitesmoke;
     text-align: center;
 }
+
+
+/* CLASSES */
 
 .header-link {
     text-decoration: none;
