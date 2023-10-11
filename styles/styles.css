@@ -2,33 +2,69 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    color: #333123;
 }
 
 
 /* SECTIONS */
 
 header {
-    background-color: black;
-    color: whitesmoke;
+    background-color: #F0DD4D;
+    background-clip: padding-box;
+    padding: 10px;
+    color: #7BA0A5;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 footer {
-    background-color: black;
-    color: whitesmoke;
+    background-color: #F0DD4D;
+    background-clip: padding-box;
+    padding: 15px;
+    color: #7BA0A5;
     text-align: center;
 }
 
+body {
+    background-color: #E7E6DF;
+    height: 500px;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    margin-top: 180px;
+}
+
+figure {
+    width: 700px;
+    height: auto;
+}
+
+figcaption {
+    background-color: #F0DD4DB3;
+    color: #7BA0A5;
+    text-align: center;
+}
+
+figcaption i {
+    color: #7BA0A5;
+}
 
 /* CLASSES */
 
 .header-link {
     text-decoration: none;
-    color: whitesmoke;
+    color: #7BA0A5;
 }
 
 .profile_picture {
     width: 300px;
     height: 300px;
+}
+
+.art_image {
+    width: 700px;
+    height: auto;
 }
 
 .music_image {
@@ -44,4 +80,26 @@ footer {
 .certificates {
     width: 500px;
     height: auto;
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #e4ce22;
+	background:linear-gradient(to bottom, #e4ce22 5%, #baa714 100%);
+	background-color:#e4ce22;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#7BA0A5;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #F0DD4D 5%, #eddf72 100%);
+	background-color:#F0DD4D;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
