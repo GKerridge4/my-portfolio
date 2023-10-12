@@ -2,7 +2,6 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color: #333123;
 }
 
 
@@ -12,7 +11,7 @@ header {
     background-color: #F0DD4D;
     background-clip: padding-box;
     padding: 10px;
-    color: #7BA0A5;
+    color: #29545a;
     position: fixed;
     top: 0;
     width: 100%;
@@ -22,8 +21,10 @@ footer {
     background-color: #F0DD4D;
     background-clip: padding-box;
     padding: 15px;
-    color: #7BA0A5;
+    color: #29545a;
     text-align: center;
+    position: relative;
+    margin-top: 80px;
 }
 
 body {
@@ -42,19 +43,34 @@ figure {
 
 figcaption {
     background-color: #F0DD4DB3;
-    color: #7BA0A5;
+    color: #29545a;
     text-align: center;
 }
 
 figcaption i {
-    color: #7BA0A5;
+    color: #29545a;
 }
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: #333123;
+}
+
 
 /* CLASSES */
 
 .header-link {
     text-decoration: none;
-    color: #7BA0A5;
+    color: #29545a;
+}
+
+.socials-link {
+    text-decoration: none;
+    color: #29545a;
+}
+
+.para_link {
+    text-decoration: underline;
+    color: #29545a;
 }
 
 .profile_picture {
@@ -82,24 +98,45 @@ figcaption i {
     height: auto;
 }
 
+.skills_list {
+    list-style-type: none;
+}
+
 .myButton {
-	box-shadow: 0px 10px 14px -7px #e4ce22;
-	background:linear-gradient(to bottom, #e4ce22 5%, #baa714 100%);
-	background-color:#e4ce22;
-	border-radius:8px;
+	background-color:#29545a;
 	display:inline-block;
 	cursor:pointer;
-	color:#7BA0A5;
-	font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 31px;
 	text-decoration:none;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #F0DD4D 5%, #eddf72 100%);
-	background-color:#F0DD4D;
+	background-color:#293c5a;
 }
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+.container {
+    height: 200px;
+    position: relative;
+    margin: 0;
+}
+.skills_list {
+    position: absolute;
+    margin: 0;
+}
+
+/* ID's */
+
+#footer_button, #skills_button {
+    color: #E7E6DF;
+    text-decoration: none;
+}
+
+#skills_button .myButton {
+    width: 100%;
+    margin-top: 5px;
 }
