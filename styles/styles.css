@@ -1,14 +1,5 @@
 /* STYLE SHEET FOR MY WEBSITE PORTFOLIO */
 
-/* 
-CONTENTS    ||  LINE NO.
-            ||
-Universal   ||  13
-Sections    ||  20
-Classes     ||  77
-IDs         ||  174
-*/
-
 
 /* || UNIVERSAL */
 
@@ -99,6 +90,10 @@ IDs         ||  174
             color: #29545a;
         }
 
+        .centerHeader {
+            text-align: center;
+        }
+
 
     /* IMAGES */
 
@@ -160,8 +155,9 @@ IDs         ||  174
     /* DIVS */
 
         .certificates {
-            width: 500px;
-            height: auto;
+            margin: 10px;
+            display: flex;
+            border: 2px solid #293c5a;
         }
 
         .container {
@@ -184,4 +180,15 @@ IDs         ||  174
         #skills_button .myButton {
             width: 100%;
             margin-top: 5px;
+        }
+
+
+    /* DIVS */
+
+        #barista_skills_foundation {
+            padding: 10px;
+        }
+
+        #brewing_skills_foundation {
+            padding: 10px;
         }
