@@ -1,0 +1,172 @@
+/* OLD STYLE SHEET FOR MY WEBSITE PORTFOLIO */
+
+/* || SECTIONS */
+
+
+    /* TEXT BASED */
+
+        header {
+            background-color: #F0DD4D;
+            background-clip: padding-box;
+            padding: 10px;
+            color: #29545a;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        footer {
+            background-color: #F0DD4D;
+            background-clip: padding-box;
+            padding: 15px;
+            color: #29545a;
+            text-align: center;
+            position: relative;
+            margin-top: 80px;
+        }
+
+        p, h1, h2, h3, h4, h5, h6 {
+            color: #333123;
+        }
+
+
+    /* FIGURE/IMAGE BASED */
+
+        figure {
+            width: 700px;
+            height: auto;
+        }
+
+        figcaption {
+            background-color: #F0DD4DB3;
+            color: #29545a;
+            text-align: center;
+        }
+
+        figcaption i {
+            color: #29545a;
+        }
+
+
+/* || CLASSES */
+
+
+    /* LINKS */
+
+        .socials-link {
+            text-decoration: none;
+            color: #29545a;
+        }
+
+        .para_link {
+            text-decoration: underline;
+            color: #29545a;
+        }
+
+        .equipment_info_link {
+            text-decoration: underline;
+            color: #29545a;
+        }
+
+        .centerHeader {
+            text-align: center;
+        }
+
+
+    /* IMAGES */
+
+        .equipment_image {
+            width: 300px;
+            height: auto;
+        }
+
+        .profile_picture {
+            width: 300px;
+            height: 300px;
+        }
+
+        .art_image {
+            width: 700px;
+            height: auto;
+        }
+
+        .music_image {
+            width: 700px;
+            height: auto;
+        }
+
+        .coffee_image {
+            width: 500px;
+            height: auto;
+        }
+
+
+    /* BUTTONS */
+
+        .myButton {
+            background-color:#29545a;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-size:17px;
+            padding:16px 31px;
+            text-decoration:none;
+        }
+        .myButton:hover {
+            background-color:#293c5a;
+        }
+        .myButton:active {
+            position:relative;
+            top:1px;
+        }
+
+
+    /* LISTS */
+
+        .skills_list {
+            list-style-type: none;
+            position: absolute;
+            margin: 0;
+        }
+
+
+    /* DIVS */
+
+        .certificates {
+            margin: 10px;
+            display: flex;
+            border: 2px solid #293c5a;
+        }
+
+        .container {
+            height: 200px;
+            position: relative;
+            margin: 0;
+        }
+
+
+/* || ID's */
+
+
+    /* BUTTONS */
+
+        #footer_button, #skills_button {
+            color: #E7E6DF;
+            text-decoration: none;
+        }
+
+        #skills_button .myButton {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+
+    /* DIVS */
+
+        #barista_skills_foundation {
+            padding: 10px;
+        }
+
+        #brewing_skills_foundation {
+            padding: 10px;
+        }
