@@ -49,3 +49,16 @@ footer {
     position:relative;
     top:1px;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 800px) {
+    footer{
+        padding: 25px;
+    }
+
+    .social_links {
+        font-size: 80%;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+}
