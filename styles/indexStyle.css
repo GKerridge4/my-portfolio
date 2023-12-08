@@ -5,7 +5,7 @@
     display: inline-flex;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-wrap: wrap;
+    
 }
 
 .profile_picture {
@@ -83,4 +83,72 @@ a .skills_button:focus {
 a .skills_button:active {
     position:relative;
     top:1px;
+}
+
+/* MEDIA QUIRES */
+@media (max-width: 800px) {
+    .about_me {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about_me_text {
+        text-align: center;
+        width: 90%;
+    }
+
+    .about_me_header {
+        font-size: 100%;
+    }
+
+    .about_me_description {
+        font-size: 100%;
+    }
+
+    a .skills_button {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 628px) {
+    body {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 361px) {
+    body {
+        padding-top: 130px;
+    }
+}
+
+@media (max-width: 356px) {
+    body {
+        padding-top: 160px;
+    }
+}
+
+@media (max-width: 352px) {
+    body {
+        padding-top: 190px;
+    }
+}
+
+@media (max-width: 279px) {
+    body {
+        padding-top: 215px;
+    }
+}
+
+@media (max-width: 259px) {
+    body {
+        padding-top: 230px;
+    }
+}
+
+@media (max-width: 196px) {
+    body {
+        padding-top: 265px;
+    }
 }
