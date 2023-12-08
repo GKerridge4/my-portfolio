@@ -1,1 +1,61 @@
 /* STYLE SHEET FOR THE TECHNOLOGY PAGE OF MY WEBSITE PORTFOLIO */
+
+/* TITLE */
+.page_header {
+    text-align: center;
+    padding: 40px;
+}
+
+/* CERTIFICATES */
+.certificates_header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.certificates {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 20px;
+}
+
+#certificate {
+    width: 500px;
+    height: 800px;
+    background-color: #29545a;
+    padding: 20px;
+}
+
+#certificate h4,
+#certificate p {
+    color: #E7E6DF;
+}
+
+#certificate h4 {
+    height: 42px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#certificate .content {
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#certificate a {
+    color: #E7E6DF;
+}
+
+#certificate a:hover,
+#certificate a:focus {
+    color: #4b939d;
+    cursor: pointer;
+}
