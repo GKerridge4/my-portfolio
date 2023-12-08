@@ -71,7 +71,7 @@
 
 #certificate h4,
 #certificate p {
-    color: #333123;
+    color: #E7E6DF;
 }
 
 #certificate h4 {
@@ -140,6 +140,7 @@
     text-align: center;
     display: flex;
     justify-content: flex-start;
+    color: #E7E6DF
 }
 
 .equipment_image {
@@ -158,7 +159,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: #333123;
+    color: #E7E6DF;
     background-color: #29545a;    
     opacity: 80%;
     text-decoration: none;
