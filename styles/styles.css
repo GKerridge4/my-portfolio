@@ -22,3 +22,8 @@ h5,
 h6 {
     color: #333123;
 }
+
+.page_header {
+    text-align: center;
+    padding: 40px;
+}
