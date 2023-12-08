@@ -63,3 +63,27 @@ header {
 .header_link:hover::after {
     opacity: 1;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 980px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .page_links {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 740px) {
+    header {
+        text-align: center;
+    }
+    .page_links {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        row-gap: 10px;
+        font-size: 80%;
+    }
+}
