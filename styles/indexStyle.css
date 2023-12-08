@@ -85,7 +85,7 @@ a .skills_button:active {
     top:1px;
 }
 
-/* MEDIA QUIRES */
+/* MEDIA QUERIES */
 @media (max-width: 800px) {
     .about_me {
         justify-content: center;
