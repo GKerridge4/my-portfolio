@@ -455,7 +455,7 @@ Certainly! Since you're using Django for your backend development, you can handl
             <!-- Choices will be displayed here -->
             {% for choice in choices %}
             <div class="choice">
-                <form action="{% url 'make_choice' %}" method="post">
+                <form action="{% \url \'make_choice' %}" method="post">
                     {% csrf_token %}
                     <input type="hidden" name="choice_id" value="{{ choice.id }}">
                     <input type="submit" class="button" value="{{ choice.text }}">
