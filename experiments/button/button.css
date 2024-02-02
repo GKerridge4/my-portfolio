@@ -48,6 +48,10 @@
 .skills_list_container{
     display: inline-flex;
     justify-content: center;
+}
+
+.skills_list_content {
+    list-style: none;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -56,55 +60,30 @@
     column-gap: 20px;
 }
 
-.skills_button {
-    background-color: #29545a;
+a .skills_button {
+    background-color:#29545a;
     color: #E7E6DF;
     text-decoration: none;
-    cursor: pointer;
+    cursor:pointer;
     width: 100%;
-    max-width: 300px; /* Adjust max-width as needed */
-    font-size: 1.3vw; /* You can adjust the font size as needed */
-    padding: 16px 31px;
-    margin-bottom: 20px;
-    border-radius: 5px; /* Add border-radius for rounded corners */
-    text-align: center; /* Center the text */
+    margin-top: 5px;
+    display:inline-block;
+    font-size:1.3vw;
+    padding:16px 31px;
+    text-decoration:none;
     transition: all 0.4s;
 }
 
-.skills_button:hover,
-.skills_button:focus {
-    background-color: #293c5a;
-    transform: scale(1.05); /* Adjust scale as needed */
+a .skills_button:hover,
+a .skills_button:focus {
+    background-color:#293c5a;
+    scale: 99%;
 }
 
-.skills_button:active {
-    position: relative;
-    top: 1px;
+a .skills_button:active {
+    position:relative;
+    top:1px;
 }
-
-/* Shaking effects */
-@keyframes shake {
-    0% { transform: translate(0); }
-    20% { transform: translate(-10px, 0); }
-    40% { transform: translate(10px, 0); }
-    60% { transform: translate(-10px, 0); }
-    80% { transform: translate(10px, 0); }
-    100% { transform: translate(0); }
-}
-
-@keyframes moveButton {
-    0% { transform: translate(0); }
-    100% { transform: translate(200vw, 0); }
-}
-
-.skills_button.shake {
-    animation: shake 0.5s ease-in-out 3;
-}
-
-.skills_button.move {
-    animation: moveButton 2s linear forwards;
-}
-
 
 /* MEDIA QUERIES */
 @media (max-width: 800px) {
@@ -173,3 +152,60 @@
         padding-top: 265px;
     }
 }
+
+
+/* BUTTON STUFF */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.interactive-button {
+    background-color: #29545a;
+    color: #E7E6DF;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px; /* Adjust max-width as needed */
+    font-size: 1.3vw; /* You can adjust the font size as needed */
+    padding: 16px 31px;
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    text-align: center; /* Center the text */
+    transition: all 0.4s;
+}
+
+.interactive-button:hover,
+.interactive-button:focus {
+    background-color: #293c5a;
+    transform: scale(1.05); /* Adjust scale as needed */
+}
+
+.interactive-button:active {
+    position: relative;
+    top: 1px;
+}
+
+/* Shaking effects */
+@keyframes shake {
+    0% { transform: translate(0); }
+    20% { transform: translate(-10px, 0); }
+    40% { transform: translate(10px, 0); }
+    60% { transform: translate(-10px, 0); }
+    80% { transform: translate(10px, 0); }
+    100% { transform: translate(0); }
+  }
+  
+  @keyframes moveButton {
+    0% { transform: translate(0); }
+    100% { transform: translate(200vw, 0); }
+  }
+  
+  .interactive-button.shake {
+    animation: shake 0.5s ease-in-out 3;
+  }
+  
+  .interactive-button.move {
+    animation: moveButton 2s linear forwards;
+  }
+  

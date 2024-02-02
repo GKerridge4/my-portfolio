@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>George Kerridge | Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/indexStyle.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/headerStyle.css">
     <link rel="stylesheet" href="styles/footerStyle.css">
     <link rel="icon" href="assets/logo/favicon_io/favicon.ico" type="image/x-icon">
@@ -70,18 +70,24 @@
 <!-- LIST OF MY SKILLS -->
     <section class="skills_list">
         <h3 class="skills_list_header">Below you will find a list of my different skills. Click one to find out more.</h3>
+        
         <div class="skills_list_container">
-            <ul class="skills_list_content">
-                <li><a class="skills_button" href="technology.html"><button class="skills_button">Technology & Computer Sciences</button></a></li>
-                <li><a class="skills_button" href="music.html"><button class="skills_button">Music</button></a></li>
-                <li><a class="skills_button" href="art.html"><button class="skills_button">Art & Poetry</button></a></li>
-                <li><a class="skills_button" href="coffee.html"><button class="skills_button">Coffee</button></a></li>
-            </ul>
+            <a class="skills_button" id="hover-button" href="technology.html">Technology & Computer Sciences</a>
+        </div>
+
+        <div class="skills_list_container">
+            <a class="skills_button" id="hover-button" href="music.html">Music</a>
+        </div>
+
+        <div class="skills_list_container">
+            <a class="skills_button" id="hover-button" href="art.html">Art & Poetry</a>
+        </div>
+        
+        <div class="skills_list_container">
+            <a class="skills_button" id="hover-button" href="coffee.html">Coffee</a>
         </div>
     </section>
     
-</body>
-
 
 <!-- FOOTER -->
 
@@ -97,4 +103,6 @@
     <a href="index.html"><button class="footer_button" id="footer_button">Home</button></a>
 </footer>
 
+<script src="scripts/script.js"></script>
+</body>
 </html>
