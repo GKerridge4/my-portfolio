@@ -8,9 +8,9 @@ body {
     justify-content: flex-start;
     align-items: center;
     height: 100vh;
-    background-image: url('../assets/Background.png');
+    background-image: url('../assets/Background-Repeat.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
 }
 
