@@ -60,6 +60,11 @@ h2.title {
     margin-bottom: 20px;
 }
 
+h3.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 p.why {
     text-align: center;
     color: #444;
@@ -142,6 +147,9 @@ a:hover {
     height: 100%;
 }
 
+input.animated-button {
+    margin: 20px;
+}
 
 /* Media Queries for Responsive Design */
 @media only screen and (max-width: 1200px) {

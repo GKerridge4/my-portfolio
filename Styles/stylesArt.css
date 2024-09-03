@@ -55,82 +55,53 @@ header {
     margin-bottom: 20px;
 }
 
+h3 {
+    font-size: 180%;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+h5 {
+    font-size: 125%;
+}
+
 h2.title {
     text-align: center;
     color: #3eb4ab; /* Light turquoise color */
-    margin-bottom: 20px;
-}
-
-p.why {
-    text-align: center;
-    color: #444;
     margin-bottom: 40px;
+    font-size: 250%;
 }
 
-.column-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.video-item {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.video-item h3 {
+.manifesto h3 {
     color: #444; /* Neutral dark color */
     margin-bottom: 15px;
 }
 
-a {
-    color: #3eb4ab;
-    text-decoration: none;
+.manifesto h4, .manifesto h5 {
+    color: #3eb4ab; /* Light turquoise color */
+    margin-bottom: 10px;
 }
 
-a:hover {
-    text-decoration: underline;
+p {
+    color: #444; /* Neutral dark color */
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
-/* Responsive Adjustments */
-@media only screen and (max-width: 768px) {
-    .name_link {
-        font-size: 1.8rem;
-    }
-
-    .header_link {
-        font-size: 1rem;
-    }
-
-    .content_container {
-        padding: 20px;
-        max-width: 100%;
-    }
-
-    .video-item {
-        padding: 15px;
-    }
+ul {
+    color: #444; /* Neutral dark color */
+    margin-bottom: 20px;
+    padding-left: 20px;
 }
 
-@media only screen and (max-width: 480px) {
-    .name_link {
-        font-size: 1.5rem;
-    }
+ul li {
+    margin-bottom: 5px;
+}
 
-    .header_link {
-        font-size: 0.9rem;
-    }
-
-    .content_container {
-        padding: 15px;
-    }
-
-    .video-item {
-        padding: 10px;
-    }
+.style {
+    margin-bottom: 30px;
 }
 
 .animated-button {
@@ -174,4 +145,38 @@ a:hover {
 
 input.animated-button {
     margin: 20px;
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 768px) {
+    .name_link {
+        font-size: 1.8rem;
+    }
+
+    .header_link {
+        font-size: 1rem;
+    }
+
+    .content_container {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .style {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .name_link {
+        font-size: 1.5rem;
+    }
+
+    .header_link {
+        font-size: 0.9rem;
+    }
+
+    .content_container {
+        padding: 15px;
+    }
 }
