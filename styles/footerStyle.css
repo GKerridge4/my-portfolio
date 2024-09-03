@@ -1,10 +1,10 @@
 /* STYLE SHEET FOR THE FOOTERS OF MY WEBSITE PORTFOLIO */
 
 footer {
-    background-color: #F0DD4D;
+    background-color: #36382E;
     background-clip: padding-box;
     padding: 15px;
-    color: #29545a;
+    color: #4059AD;
     text-align: center;
     position: relative;
     margin-top: 80px;
@@ -35,10 +35,10 @@ footer {
 }
 
 .footer_button {
-    background-color:#29545a;
+    background-color:#3891A6;
     display:inline-block;
     cursor:pointer;
-    color:#ffffff;
+    color:#E7E6DF;
     padding:16px 31px;
     text-decoration:none;
 }
