@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    background-color: #f6f6f6; /* Soft off-white background */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../assets/Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.name_link {
+    color: #3eb4ab; /* Light turquoise color */
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+.page_links h3 {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.header_link {
+    color: #444; /* Neutral dark color */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.header_link:hover {
+    color: #3eb4ab; /* Light turquoise on hover */
+}
+
+.content_container {
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2.title {
+    text-align: center;
+    color: #3eb4ab; /* Light turquoise color */
+    margin-bottom: 20px;
+}
+
+p.why {
+    text-align: center;
+    color: #444;
+    margin-bottom: 40px;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video-item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video-item h3 {
+    color: #444; /* Neutral dark color */
+    margin-bottom: 15px;
+}
+
+a {
+    color: #3eb4ab;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 768px) {
+    .name_link {
+        font-size: 1.8rem;
+    }
+
+    .header_link {
+        font-size: 1rem;
+    }
+
+    .content_container {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .video-item {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .name_link {
+        font-size: 1.5rem;
+    }
+
+    .header_link {
+        font-size: 0.9rem;
+    }
+
+    .content_container {
+        padding: 15px;
+    }
+
+    .video-item {
+        padding: 10px;
+    }
+}
