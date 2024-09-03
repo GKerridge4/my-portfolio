@@ -1,0 +1,47 @@
+/* STYLE SHEET FOR THE MUSIC PAGE OF MY WEBSITE PORTFOLIO */
+
+h1.page_title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.music_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 
+    -50px -50px 0 -40px #29545a,
+    50px 50px 0 -40px #29545a;
+}
+
+.text_box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    text-align: justify;
+}
+
+h2.text_box_header {
+    text-align: center;
+    margin: 15px;
+    
+}
+
+.worked_with_list {
+    text-align: center;
+    font-size: 115%;
+    line-height: 170%;
+    color: #29545a;
+}
+
+.studies_list {
+    text-align: center;
+    font-size: 115%;
+    line-height: 200%;
+}

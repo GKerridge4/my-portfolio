@@ -1,0 +1,65 @@
+/* STYLE SHEET FOR THE FOOTERS OF MY WEBSITE PORTFOLIO */
+
+footer {
+    background-color: #36382E;
+    background-clip: padding-box;
+    padding: 15px;
+    color: #4059AD;
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.social_links {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 1vw;
+}
+
+.socials_link {
+    text-decoration: none;
+    color: #29545a;
+    transition: all 0.4s;
+    position: relative;
+}
+
+.socials_link:hover,
+.social_links:focus {
+    text-decoration: none;
+    color: #4b939d;
+    font-size: 97%;
+}
+
+.footer_button {
+    background-color:#3891A6;
+    display:inline-block;
+    cursor:pointer;
+    color:#E7E6DF;
+    padding:16px 31px;
+    text-decoration:none;
+}
+.footer_button:hover {
+    background-color:#293c5a;
+    scale: 98%;
+}
+.footer_button:active {
+    position:relative;
+    top:1px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 800px) {
+    footer{
+        padding: 25px;
+    }
+
+    .social_links {
+        font-size: 80%;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+}

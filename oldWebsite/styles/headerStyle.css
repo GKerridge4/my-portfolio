@@ -1,0 +1,89 @@
+/* STYLE SHEET FOR THE HEADERS OF MY WEBSITE PORTFOLIO */
+
+header {
+    background-color: #36382E;
+    background-clip: padding-box;
+    padding: 10px;
+    color: #E7E6DF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 80px;
+    padding: 0 50px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_link {
+    text-decoration: none;
+    color: #E7E6DF;
+    transition: all 0.4s;
+    position: relative;
+}
+
+.logo_link:hover,
+.logo_link:focus {
+    color: #3891A6;
+    font-size: 97%;
+}
+
+.page_links {
+    display: flex;
+    column-gap: 30px;
+}
+
+.header_link {
+    text-decoration: none;
+    color: #E7E6DF;
+    transition: all 0.4s;
+    position: relative;
+}
+
+.header_link:hover,
+.header_link:focus {
+    color: #3891A6;
+    font-size: 97%;
+}
+
+.header_link::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color:#3891A6;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transform: all 0.4s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.header_link:hover::after {
+    opacity: 1;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 980px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .page_links {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 740px) {
+    header {
+        text-align: center;
+    }
+    .page_links {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        row-gap: 10px;
+        font-size: 80%;
+    }
+}

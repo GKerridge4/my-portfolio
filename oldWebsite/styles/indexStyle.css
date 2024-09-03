@@ -1,0 +1,174 @@
+/* STYLE SHEET FOR THE INDEX PAGE OF MY WEBSITE PORTFOLIO */
+
+/* ABOUT ME */
+.about_me {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.profile_picture {
+    max-width: 50%;
+    height: auto;
+}
+
+.about_me_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.about_me_header {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 2vw;
+    color: #4059AD;
+}
+
+.about_me_description {
+    padding-left: 10px;
+    font-size: 1.3vw;
+}
+
+/* LIST OF MY SKILLS */
+.skills_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.skills_list_header {
+    text-align: center;
+    padding: 20px;
+}
+
+.skills_list_container{
+    display: inline-flex;
+    justify-content: center;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.skills_button {
+    background-color: #29545a;
+    color: #E7E6DF;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px; /* Adjust max-width as needed */
+    font-size: 1.3vw; /* You can adjust the font size as needed */
+    padding: 16px 31px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    text-align: center; /* Center the text */
+    transition: all 0.4s;
+}
+
+.skills_button:hover,
+.skills_button:focus {
+    background-color: #293c5a;
+    transform: scale(1.05); /* Adjust scale as needed */
+}
+
+.skills_button:active {
+    position: relative;
+    top: 1px;
+}
+
+/* Shaking effects */
+@keyframes shake {
+    0% { transform: translate(0); }
+    20% { transform: translate(-10px, 0); }
+    40% { transform: translate(10px, 0); }
+    60% { transform: translate(-10px, 0); }
+    80% { transform: translate(10px, 0); }
+    100% { transform: translate(0); }
+}
+
+@keyframes moveButton {
+    0% { transform: translate(0); }
+    100% { transform: translate(200vw, 0); }
+}
+
+.skills_button.shake {
+    animation: shake 0.5s ease-in-out 3;
+}
+
+.skills_button.move {
+    animation: moveButton 2s linear forwards;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 800px) {
+    .about_me {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about_me_text {
+        text-align: center;
+        width: 90%;
+    }
+
+    .about_me_header {
+        font-size: 100%;
+    }
+
+    .about_me_description {
+        font-size: 100%;
+    }
+
+    a .skills_button {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 628px) {
+    body {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 361px) {
+    body {
+        padding-top: 130px;
+    }
+}
+
+@media (max-width: 356px) {
+    body {
+        padding-top: 160px;
+    }
+}
+
+@media (max-width: 352px) {
+    body {
+        padding-top: 190px;
+    }
+}
+
+@media (max-width: 279px) {
+    body {
+        padding-top: 215px;
+    }
+}
+
+@media (max-width: 259px) {
+    body {
+        padding-top: 230px;
+    }
+}
+
+@media (max-width: 196px) {
+    body {
+        padding-top: 265px;
+    }
+}
