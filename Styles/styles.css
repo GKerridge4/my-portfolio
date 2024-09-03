@@ -48,3 +48,53 @@ nav ul li a {
 nav ul li a:hover {
     color: #3eb4ab; /* Light turquoise on hover */
 }
+
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    nav ul li a {
+        font-size: 1.1rem;
+    }
+    
+    .container {
+        padding: 20px 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+    
+    .container {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+
+    .container {
+        padding: 15px;
+        width: 90%;
+    }
+}
