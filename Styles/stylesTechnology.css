@@ -27,6 +27,11 @@ header {
     color: #3eb4ab; /* Light turquoise color */
     font-size: 2.5rem;
     text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+.name_link:hover {
+    color: rgb(102, 102, 102);
 }
 
 .page_links h3 {
