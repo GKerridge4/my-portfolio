@@ -152,6 +152,46 @@ input.animated-button {
     margin: 20px;
 }
 
+/* ART SECTIONS */
+.art-section {
+    margin-bottom: 40px;
+}
+
+.art-section h3 {
+    color: #3eb4ab; /* Light turquoise color */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid-item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Ensure the item takes the full height */
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+    object-fit: contain; /* Ensure image retains aspect ratio and fits within the container */
+}
+
+
 /* Responsive Adjustments */
 @media only screen and (max-width: 768px) {
     .name_link {
@@ -193,4 +233,16 @@ input.animated-button {
 
 .josefin-sans-bold {
     font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
