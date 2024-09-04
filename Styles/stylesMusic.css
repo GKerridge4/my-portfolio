@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Merriweather', serif;
+    font-family: 'Josefin Sans', sans-serif;
     background-color: #f6f6f6; /* Soft off-white background */
     display: flex;
     flex-direction: column;
@@ -226,4 +226,13 @@ input.animated-button {
         padding: 8px 16px;
         font-size: 0.9rem;
     }
+}
+
+/* Custom Josefin Sans classes */
+.josefin-sans-regular {
+    font-weight: 400;
+}
+
+.josefin-sans-bold {
+    font-weight: 700;
 }
