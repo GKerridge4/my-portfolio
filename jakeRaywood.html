@@ -55,5 +55,25 @@
     <form>
         <input class="animated-button" type="button" value="Return" onclick="history.back()">
     </form>
+
+    <div id="appointment-button" class="floating-button">
+        <!-- Google Calendar Appointment Scheduling begin -->
+        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+        (function() {
+        var target = document.currentScript;
+        window.addEventListener('load', function() {
+            calendar.schedulingButton.load({
+            url: 'https://calendar.google.com/calendar/appointments/AcZssZ0B5SBfX9M8bPLl698S_diTYB7UoLOFuL84xak=?gv=true',
+            color: '#3eb4ab',
+            label: 'Book an appointment',
+            target,
+            });
+        });
+        })();
+        </script>
+        <!-- end Google Calendar Appointment Scheduling -->
+    </div>
 </body>
 </html>
