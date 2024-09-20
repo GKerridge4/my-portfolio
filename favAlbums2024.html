@@ -29,6 +29,7 @@
     <div class="content_container">
         <h2 class="title">My Favourite Albums of 2024</h2>
         <h3 class="title">So far...</h3>
+        <p class="title">Join the 2024 Albums discussion over on Reddit <a class="link" href="https://www.reddit.com/r/AlbumsOf2024/" target="_blank">here</a>.</p>
         <ol class="grid-container">
             <div class="grid-item">
                 <li><h3>Helando Negro - Phasor</h3></li>
@@ -257,28 +258,12 @@
         </ol>
     </div>
 
+    <div class="floating-button">
+        <a id="reddit-button" href="https://www.reddit.com/r/AlbumsOf2024/" class="animated-button" target="_blank">Discuss on Reddit</a>
+    </div>
+
     <form>
         <input class="animated-button" type="button" value="Return" onclick="history.back()">
     </form>
-
-    <div id="appointment-button" class="floating-button">
-        <!-- Google Calendar Appointment Scheduling begin -->
-        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-        <script>
-        (function() {
-        var target = document.currentScript;
-        window.addEventListener('load', function() {
-            calendar.schedulingButton.load({
-            url: 'https://calendar.google.com/calendar/appointments/AcZssZ0B5SBfX9M8bPLl698S_diTYB7UoLOFuL84xak=?gv=true',
-            color: '#3eb4ab',
-            label: 'Book an appointment',
-            target,
-            });
-        });
-        })();
-        </script>
-        <!-- end Google Calendar Appointment Scheduling -->
-    </div>
 </body>
 </html>

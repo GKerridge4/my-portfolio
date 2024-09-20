@@ -30,7 +30,13 @@ header {
     transition: color 0.4s ease;
 }
 
-.name_link:hover {
+.link {
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+.name_link:hover,
+.link:hover {
     color: rgb(102, 102, 102);
 }
 
@@ -65,7 +71,8 @@ h2.title {
     margin-bottom: 20px;
 }
 
-h3.title {
+h3.title, 
+p.title {
     text-align: center;
     margin-bottom: 30px;
 }
