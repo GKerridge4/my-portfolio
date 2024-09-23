@@ -23,6 +23,15 @@ header {
     margin-bottom: 20px;
 }
 
+img.music_image {
+    width: 100%;
+}
+
+img.music_image2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
 .name_link {
     color: #3eb4ab; /* Light turquoise color */
     font-size: 2.5rem;
