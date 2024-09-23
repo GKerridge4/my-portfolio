@@ -58,6 +58,17 @@ nav ul li a:hover {
     font-weight: 700;
 }
 
+#appointment-button {
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#appointment-button:hover {
+    /* background-color: #2a9484; Slightly darker turquoise on hover */
+    transform: scale(0.95);
+}
 
 /* Media Queries for Responsive Design */
 @media only screen and (max-width: 1200px) {

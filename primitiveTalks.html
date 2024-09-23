@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Name | George Kerridge</title>
+    <link rel="stylesheet" href="Styles/stylesProjects.css">
+    <link rel="icon" href="assets/logo/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <h1><a class="name_link" href="index.html">George Kerridge</a></h1>
+        <nav class="page_links">
+            <h3><a class="header_link music_page" href="music.html">Music</a></h3>
+            <h3><a class="header_link art_page" href="art.html">Art</a></h3>
+            <h3><a class="header_link coffee_page" href="coffee.html">Coffee</a></h3>
+            <h3><a class="header_link technology_page" href="technology.html">Technology</a></h3>
+            <h3><a class="header_link education_page" href="education.html">Education</a></h3>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT SECTION -->
+    <div class="content_container">
+        <h2 class="title">Primitive Talks</h2>
+        <p class="why">
+            A project started during university with a good friend and long time collaborator, Fabian.<br>
+            Initial born as 'Aurora', a live performance for Fabian's degree dissertation, 
+            this project brought together our love for experimental electronica and drum and bass.<br><br>
+            Although we don't have any spotify releases under our belt yet, you can check out the 
+            Aurora project below and watch Fabian and I perform together with Caswell and Paint Factory.
+        </p>
+        
+        <h2 class="title">Videos</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>AURORA - "Circles, Squares & Triangles" ◎■∆</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lVdoEq0EIdQ?si=r5__dnVTDSJ1mf8G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="grid-item">
+                <h3>AURORA - "Lie To Me" (Remix)</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nlKWrCg-CaY?si=dx7ewN5am_-su0I7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="grid-item">
+                <h3>AURORA - Full Performance</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yVl_03q8qXM?si=0tFI8y5SHOa976a1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <form>
+        <input class="animated-button" type="button" value="Return" onclick="history.back()">
+    </form>
+
+    <div id="appointment-button" class="floating-button">
+        <!-- Google Calendar Appointment Scheduling begin -->
+        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+        (function() {
+        var target = document.currentScript;
+        window.addEventListener('load', function() {
+            calendar.schedulingButton.load({
+            url: 'https://calendar.google.com/calendar/appointments/AcZssZ0B5SBfX9M8bPLl698S_diTYB7UoLOFuL84xak=?gv=true',
+            color: '#3eb4ab',
+            label: 'Book an appointment',
+            target,
+            });
+        });
+        })();
+        </script>
+        <!-- end Google Calendar Appointment Scheduling -->
+    </div>
+</body>
+</html>
