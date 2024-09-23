@@ -79,7 +79,8 @@ h2.title {
     font-size: 250%;
 }
 
-.manifesto h3 {
+h3.title {
+    text-align: center;
     color: #444; /* Neutral dark color */
     margin-bottom: 15px;
 }
