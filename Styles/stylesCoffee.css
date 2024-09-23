@@ -145,11 +145,12 @@ input.animated-button {
     text-align: center;
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 #appointment-button:hover {
-    background-color: #2a9484; /* Slightly darker turquoise on hover */
+    /* background-color: #2a9484; Slightly darker turquoise on hover */
+    transform: scale(0.95);
 }
 
 
