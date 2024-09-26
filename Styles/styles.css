@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: background-image 0.5s ease;
 }
 
 .container {
@@ -26,6 +27,10 @@ h1 {
     color: #3eb4ab; /* Light turquoise color from the image */
     margin-bottom: 30px;
     font-size: 3rem;
+}
+
+body.hover-background {
+    background-image: url(../assets/Photos/GeorgeAtSheeranSide.jpg); /* New image on hover */
 }
 
 nav ul {

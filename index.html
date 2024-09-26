@@ -26,6 +26,16 @@
             </ul>
         </nav>
 
+<script>
+    document.querySelector('.container').addEventListener('mouseenter', function() {
+        document.body.classList.add('hover-background');
+    });
+
+    document.querySelector('.container').addEventListener('mouseleave', function() {
+        document.body.classList.remove('hover-background');
+    });
+</script>
+
         <!-- Appointment Button -->
         <div id="appointment-button" class="josefin-sans-regular" style="margin-top: 20px;">
             <script>
