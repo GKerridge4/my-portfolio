@@ -75,6 +75,44 @@ nav ul li a:hover {
     transform: scale(0.95);
 }
 
+/* Font Awesome Social Media Icons */
+#social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#social-icons .social-left,
+#social-icons .social-right {
+    display: flex;
+}
+
+#social-icons .social-left {
+    margin-right: 15px;
+}
+
+#social-icons .social-right {
+    margin-left: 15px;
+}
+
+#social-icons a {
+    margin: 0 10px;
+    font-size: 24px; /* Icon size */
+    color: #3eb4ab; /* Turquoise color */
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#social-icons a:hover {
+    transform: scale(1.2); /* Slightly larger on hover */
+    color: #2a9484; /* Darker turquoise on hover */
+}
+
+#appointment-button {
+    margin: 0 15px;
+}
+
 /* Media Queries for Responsive Design */
 @media only screen and (max-width: 1200px) {
     h1 {

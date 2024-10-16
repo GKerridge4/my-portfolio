@@ -14,14 +14,103 @@ body {
     background-position: center;
 }
 
+/* Header section styling */
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
     width: 100%;
-    text-align: center;
     padding: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
+
+.header-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px; /* Spacing between rows */
+}
+
+.name_link {
+    color: #3eb4ab; /* Light turquoise color */
+    font-size: 2.5rem;
+    text-decoration: none;
+    transition: color 0.4s ease;
+    margin: 0 20px; /* Spacing around the header text */
+}
+
+.name_link:hover {
+    color: #2a9484; /* Darker color on hover */
+}
+
+/* Social Media Icons on both sides of the header */
+.social-icons-left,
+.social-icons-right {
+    display: flex;
+    gap: 30px; /* Add spacing between icons */
+}
+
+.social-icons-left a,
+.social-icons-right a {
+    font-size: 24px; /* Icon size */
+    color: #3eb4ab; /* Turquoise color */
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons-left a:hover,
+.social-icons-right a:hover {
+    transform: scale(1.2); /* Slightly larger on hover */
+    color: #2a9484; /* Darker turquoise on hover */
+}
+
+/* Navigation links on the second row */
+.page_links {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Spacing between navigation links */
+}
+
+.page_links h3 {
+    margin: 0;
+}
+
+.header_link {
+    color: #444; /* Neutral dark color */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.header_link:hover {
+    color: #3eb4ab; /* Light turquoise on hover */
+}
+
+/* Media Queries for smaller screens */
+@media only screen and (max-width: 768px) {
+    .name_link {
+        font-size: 1.8rem;
+    }
+
+    .header-row {
+        flex-direction: column;
+    }
+
+    .social-icons-left,
+    .social-icons-right {
+        margin-bottom: 10px;
+    }
+
+    .page_links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
 
 img.music_image {
     width: 100%;
