@@ -71,11 +71,12 @@ header {
 .page_links {
     display: flex;
     justify-content: center;
-    gap: 15px; /* Spacing between navigation links */
+    
 }
 
 .page_links h3 {
     margin: 0;
+    padding: 0 8% 0 8%;
 }
 
 .header_link {

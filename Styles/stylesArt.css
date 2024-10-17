@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     background-image: url('../assets/Background.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,11 +71,11 @@ header {
 .page_links {
     display: flex;
     justify-content: center;
-    gap: 15px; /* Spacing between navigation links */
 }
 
 .page_links h3 {
     margin: 0;
+    padding: 0 8% 0 8%;
 }
 
 .header_link {
