@@ -293,6 +293,7 @@ input.animated-button {
     align-items: center; /* Center vertically */
     height: 100%; /* Ensure the item takes the full height */
     text-align: center;
+    justify-content: center;
 }
 
 .grid-item img {
@@ -302,6 +303,46 @@ input.animated-button {
     width: auto;
     border-radius: 8px;
     object-fit: contain; /* Ensure image retains aspect ratio and fits within the container */
+}
+
+.img_wrap {
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+img.sell_image {
+    transition: all 0.3s ease;
+    background: none;
+    justify-content: center;
+    align-items: center;
+}
+
+p.sell_text {
+    position: absolute;
+    display: flex;
+    justify-content: center;  /* Center text horizontally */
+    align-items: center;      /* Center text vertically */
+    top: 50%;                 /* Center the text vertically using transform */
+    left: 50%;                /* Center the text horizontally using transform */
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;       /* Adjust padding for text box size */
+    color: #ee6103;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;      /* Rounded corners */
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+
+img.sell_image:hover {
+    transform: scale(0.98);   /* Scale down the image */
+    opacity: 80%;             /* 80% opacity */
+}
+
+.img_wrap:hover .sell_text {
+    visibility: visible;
+    opacity: 1;
 }
 
 /* Floating button styling */
