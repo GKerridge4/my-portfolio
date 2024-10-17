@@ -16,12 +16,11 @@
 
     <!-- HEADER SECTION -->
     <header>
-        <!-- First row: Social media icons and header -->
         <div class="header-row">
             <!-- Left side icons -->
             <div class="social-icons-left">
                 <a href="https://www.tiktok.com/@georgekerridgemusic?_t=8qaenAM6oD3&_r=1" class="fa-brands fa-tiktok" target="_blank"></a>
-                <a href="https://www.instagram.com/georgekerridge/" class="fa fa-instagram" class="fa-brands fa-instagram" target="_blank"></a>
+                <a href="https://www.instagram.com/georgekerridge/" class="fa-brands fa-instagram" target="_blank"></a>
                 <a href="https://www.youtube.com/@georgekerridgecreative" class="fa-brands fa-youtube" target="_blank"></a>
             </div>
 
@@ -36,7 +35,14 @@
             </div>
         </div>
 
-        <!-- Second row: Navigation links -->
+        <!-- Burger Menu Icon -->
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Navigation Links -->
         <nav class="page_links">
             <h3><a class="header_link music_page" href="music.html">Music</a></h3>
             <h3><a class="header_link art_page" href="art.html">Art</a></h3>
@@ -46,6 +52,15 @@
         </nav>
     </header>
 
+    <!-- Burger Menu Toggle JavaScript -->
+    <script>
+        const burgerMenu = document.querySelector('.burger-menu');
+        const pageLinks = document.querySelector('.page_links');
+
+        burgerMenu.addEventListener('click', function() {
+            pageLinks.classList.toggle('active');
+        });
+    </script>
 
     <!-- MAIN CONTENT SECTION -->
     <div class="content_container">
