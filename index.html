@@ -28,51 +28,32 @@
             </ul>
         </nav>
 
-<script>
-    document.querySelector('.container').addEventListener('mouseenter', function() {
-        document.body.classList.add('hover-background');
-    });
+        <!-- Social Icons in one row -->
+        <div class="social-icons" style="text-align: center; margin-top: 20px;">
+            <a href="https://www.tiktok.com/@georgekerridgemusic?_t=8qaenAM6oD3&_r=1" class="fa-brands fa-tiktok" target="_blank"></a>
+            <a href="https://www.instagram.com/georgekerridge/" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://www.youtube.com/@georgekerridgecreative" class="fa fa-youtube" target="_blank"></a>
+            <a href="https://open.spotify.com/artist/2hUqIrqnRVDoIh3dzqgSLy?si=7uEW3ZORRzOwdqXeC5mUfQ" class="fa fa-spotify" target="_blank"></a>
+            <a href="https://georgekerridge.etsy.com" class="fa fa-etsy" target="_blank"></a>
+            <a href="https://www.reddit.com/r/AlbumsOf2024/" class="fa fa-reddit" target="_blank"></a>
+        </div>
 
-    document.querySelector('.container').addEventListener('mouseleave', function() {
-        document.body.classList.remove('hover-background');
-    });
-</script>
-
-<div class="social-icons" style="text-align: center; margin-top: 20px;">
-    <!-- Left side icons -->
-    <div class="social-left">
-        <a href="https://www.tiktok.com/@georgekerridgemusic?_t=8qaenAM6oD3&_r=1" class="fa-brands fa-tiktok" target="_blank"></a>
-        <a href="https://www.instagram.com/georgekerridge/" class="fa fa-instagram" target="_blank"></a>
-        <a href="https://www.youtube.com/@georgekerridgecreative" class="fa fa-youtube" target="_blank"></a>
-    </div>
-        
-    <!-- Booking button in the middle -->
-        <!-- Appointment Button -->
+        <!-- Booking button below social icons -->
         <div id="appointment-button" class="josefin-sans-regular" style="margin-top: 20px;">
             <script>
-            (function() {
-              var target = document.currentScript;
-              window.addEventListener('load', function() {
-                calendar.schedulingButton.load({
-                  url: 'https://calendar.google.com/calendar/appointments/AcZssZ0B5SBfX9M8bPLl698S_diTYB7UoLOFuL84xak=?gv=true',
-                  color: '#3eb4ab',
-                  label: 'Book an appointment',
-                  target,
+                (function() {
+                var target = document.currentScript;
+                window.addEventListener('load', function() {
+                    calendar.schedulingButton.load({
+                    url: 'https://calendar.google.com/calendar/appointments/AcZssZ0B5SBfX9M8bPLl698S_diTYB7UoLOFuL84xak=?gv=true',
+                    color: '#3eb4ab',
+                    label: 'Book an appointment',
+                    target,
+                    });
                 });
-              });
-            })();
+                })();
             </script>
         </div>
-        <!-- end Appointment Button -->
-
-    <!-- Right side icons -->
-    <div class="social-right">
-        <a href="https://open.spotify.com/artist/2hUqIrqnRVDoIh3dzqgSLy?si=7uEW3ZORRzOwdqXeC5mUfQ" class="fa fa-spotify" target="_blank"></a>
-        <a href="https://georgekerridge.etsy.com" class="fa fa-etsy" target="_blank"></a>
-        <a href="https://www.reddit.com/r/AlbumsOf2024/" class="fa fa-reddit" target="_blank"></a>
-    </div>
-</div>
-
     </div>
 </body>
 </html>

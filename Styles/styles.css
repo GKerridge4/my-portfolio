@@ -67,11 +67,11 @@ nav ul li a:hover {
     font-size: 1.2rem;
     text-align: center;
     cursor: pointer;
+    margin-top: 20px;
     transition: all 0.3s ease;
 }
 
 #appointment-button:hover {
-    /* background-color: #2a9484; Slightly darker turquoise on hover */
     transform: scale(0.95);
 }
 
@@ -80,20 +80,8 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px; /* Add some spacing between the icons */
     margin-top: 20px;
-}
-
-.social-icons .social-left,
-.social-icons .social-right {
-    display: flex;
-}
-
-.social-icons .social-left {
-    margin-right: 15px;
-}
-
-.social-icons .social-right {
-    margin-left: 15px;
 }
 
 .social-icons a {
