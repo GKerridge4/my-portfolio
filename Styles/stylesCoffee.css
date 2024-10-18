@@ -14,21 +14,7 @@ body {
     background-position: center;
 }
 
-img.music_image {
-    width: 100%;
-}
-
-.coffeeLink {
-    color: #3eb4ab;
-    text-decoration: none;    
-    transition: all 0.3s ease;
-}
-
-.coffeeLink:hover {
-    color: #444;
-    font-size: 95%;
-}
-
+/* Content Container Styling */
 .content_container {
     text-align: center;
     background: rgba(255, 255, 255, 0.8);
@@ -40,6 +26,24 @@ img.music_image {
     margin-bottom: 20px;
 }
 
+/* Image Styling */
+img.music_image {
+    width: 100%;
+}
+
+/* Link Stylings */
+.coffeeLink {
+    color: #3eb4ab;
+    text-decoration: none;    
+    transition: all 0.3s ease;
+}
+
+.coffeeLink:hover {
+    color: #444;
+    font-size: 95%;
+}
+
+/* Text Styling */
 h2.title {
     color: #3eb4ab;
     margin-bottom: 30px;
@@ -53,6 +57,7 @@ h2.title {
     margin-bottom: 20px;
 }
 
+/* Button Styling */
 .animated-button {
     display: inline-block;
     padding: 12px 24px;
