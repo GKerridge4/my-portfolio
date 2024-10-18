@@ -14,15 +14,7 @@ body {
     background-position: center;
 }
 
-img.music_image {
-    width: 100%;
-}
-
-img.music_image2 {
-    width: 100%;
-    margin-top: 20px;
-}
-
+/* Content Container Styling */
 .content_container {
     background: rgba(255, 255, 255, 0.8);
     padding: 30px;
@@ -33,6 +25,27 @@ img.music_image2 {
     margin-bottom: 20px;
 }
 
+/* Image Styling */
+img.music_image {
+    width: 100%;
+}
+
+img.music_image2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Link Styling */
+a {
+    color: #3eb4ab;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Text Styling */
 h2.title {
     text-align: center;
     color: #3eb4ab;
@@ -45,34 +58,7 @@ p.why {
     margin-bottom: 40px;
 }
 
-.column-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.video-item {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.video-item h3 {
-    color: #444;
-    margin-bottom: 15px;
-}
-
-a {
-    color: #3eb4ab;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
+/* Button Styling */
 .animated-button {
     display: inline-block;
     padding: 12px 24px;
@@ -117,7 +103,7 @@ input.animated-button {
 }
 
 
-/* Responsive Adjustments */
+/* Media Queries for Responsive Design */
 @media only screen and (max-width: 768px) {
     .name_link {
         font-size: 1.8rem;
