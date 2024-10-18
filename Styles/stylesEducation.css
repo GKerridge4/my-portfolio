@@ -14,17 +14,7 @@ body {
     background-position: center;
 }
 
-.email_link {
-    color: #444;
-    text-decoration: none;
-    font-size: 1.2rem;
-    transition: color 0.3s ease;
-}
-
-.email_link:hover {
-    color: #3eb4ab;
-}
-
+/* Content Container Styling */
 .content_container {
     text-align: center;
     background: rgba(255, 255, 255, 0.8);
@@ -36,19 +26,19 @@ body {
     margin-bottom: 20px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+/* Link Styling */
+.email_link {
+    color: #444;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
 }
 
-.grid-item {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+.email_link:hover {
+    color: #3eb4ab;
 }
 
+/* Text Styling */
 h2.title {
     color: #3eb4ab;
     margin-bottom: 30px;
@@ -62,6 +52,7 @@ h2.title {
     margin-bottom: 20px;
 }
 
+/* Button Styling */
 .animated-button {
     display: inline-block;
     padding: 12px 24px;
@@ -105,6 +96,7 @@ input.animated-button {
     margin: 20px;
 }
 
+/* Book an Appointment Button Styling */
 .book_an_appointment {
     transition: transform 0.3s ease;
 }
