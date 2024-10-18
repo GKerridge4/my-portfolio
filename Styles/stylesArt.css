@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #f6f6f6; /* Soft off-white background */
+    background-color: #f6f6f6;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -15,7 +15,7 @@ body {
 }
 
 .content_container {
-    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    background: rgba(255, 255, 255, 0.8);
     padding: 30px;
     border-radius: 10px;
     max-width: 1000px;
@@ -38,14 +38,14 @@ h5 {
 
 h2.title {
     text-align: center;
-    color: #3eb4ab; /* Light turquoise color */
+    color: #3eb4ab;
     margin-bottom: 40px;
     font-size: 250%;
 }
 
 h3.title {
     text-align: center;
-    color: #444; /* Neutral dark color */
+    color: #444;
     margin-bottom: 15px;
 }
 
@@ -56,12 +56,12 @@ h3.etsy {
 }
 
 .manifesto h4, .manifesto h5 {
-    color: #3eb4ab; /* Light turquoise color */
+    color: #3eb4ab;
     margin-bottom: 10px;
 }
 
 p {
-    color: #444; /* Neutral dark color */
+    color: #444;
     line-height: 1.6;
     margin-bottom: 15px;
 }
@@ -84,7 +84,7 @@ p.etsy {
 }
 
 ul {
-    color: #444; /* Neutral dark color */
+    color: #444;
     margin-bottom: 20px;
     padding-left: 20px;
 }
@@ -102,7 +102,7 @@ ul li {
     padding: 12px 24px;
     font-size: 1.2rem;
     color: #fff;
-    background-color: #3eb4ab; /* Light turquoise color */
+    background-color: #3eb4ab;
     border: 2px solid transparent;
     border-radius: 30px;
     text-decoration: none;
@@ -146,7 +146,7 @@ input.animated-button {
 }
 
 .art-section h3 {
-    color: #3eb4ab; /* Light turquoise color */
+    color: #3eb4ab;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -164,9 +164,9 @@ input.animated-button {
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100%; /* Ensure the item takes the full height */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     text-align: center;
     justify-content: center;
 }
@@ -177,7 +177,7 @@ input.animated-button {
     height: auto;
     width: auto;
     border-radius: 8px;
-    object-fit: contain; /* Ensure image retains aspect ratio and fits within the container */
+    object-fit: contain;
 }
 
 .img_wrap {
@@ -196,53 +196,28 @@ img.sell_image {
 p.sell_text {
     position: absolute;
     display: flex;
-    justify-content: center;  /* Center text horizontally */
-    align-items: center;      /* Center text vertically */
-    top: 50%;                 /* Center the text vertically using transform */
-    left: 50%;                /* Center the text horizontally using transform */
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px 20px;       /* Adjust padding for text box size */
+    padding: 10px 20px;
     color: #ee6103;
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-    border-radius: 10px;      /* Rounded corners */
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
     visibility: hidden;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
 }
 
 img.sell_image:hover {
-    transform: scale(0.98);   /* Scale down the image */
-    opacity: 80%;             /* 80% opacity */
+    transform: scale(0.98);
+    opacity: 80%;   
 }
 
 .img_wrap:hover .sell_text {
     visibility: visible;
     opacity: 1;
-}
-
-/* Floating button styling */
-.floating-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-}
-
-#appointment-button {
-    padding: 12px 24px;
-    font-size: 1.2rem;
-    color: white;
-    background-color: #3eb4ab;
-    border-radius: 30px;
-    text-align: center;
-    cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-#appointment-button:hover {
-    /* background-color: #2a9484; Slightly darker turquoise on hover */
-    transform: scale(0.95);
 }
 
 
@@ -280,15 +255,6 @@ img.sell_image:hover {
     }
 }
 
-/* Custom Josefin Sans classes */
-.josefin-sans-regular {
-    font-weight: 400;
-}
-
-.josefin-sans-bold {
-    font-weight: 700;
-}
-
 @media only screen and (max-width: 768px) {
     .grid-container {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -298,26 +264,5 @@ img.sell_image:hover {
 @media only screen and (max-width: 480px) {
     .grid-container {
         grid-template-columns: 1fr;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .floating-button {
-        bottom: 20px;
-        right: 50%;
-        transform: translateX(50%); /* Center the button horizontally */
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .floating-button {
-        bottom: 20px;
-        right: 50%;
-        transform: translateX(50%);
-    }
-
-    #appointment-button {
-        padding: 10px 20px;
-        font-size: 1rem; /* Adjust font size for smaller screens */
     }
 }

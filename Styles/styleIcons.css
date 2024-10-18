@@ -1,0 +1,56 @@
+/* Social Media Icons for Index Page*/
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Add some spacing between the icons */
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px; /* Icon size */
+    color: #3eb4ab; /* Turquoise color */
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Slightly larger on hover */
+    color: #2a9484; /* Darker turquoise on hover */
+}
+
+#appointment-button {
+    margin: 0 15px;
+}
+
+
+/* Social Media Icons on both sides of the header */
+.social-icons-left,
+.social-icons-right {
+    display: flex;
+    gap: 30px;
+}
+
+.social-icons-left a,
+.social-icons-right a {
+    font-size: 24px; /* Icon size */
+    color: #3eb4ab; 
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons-left a:hover,
+.social-icons-right a:hover {
+    transform: scale(1.2); 
+    color: #2a9484; 
+}
+
+
+/* Media Queries for smaller screens */
+@media only screen and (max-width: 768px) {
+    .social-icons-left,
+    .social-icons-right {
+        margin-bottom: 10px;
+    }
+}

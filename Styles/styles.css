@@ -15,6 +15,10 @@ body {
     transition: background-image 0.5s ease;
 }
 
+body.hover-background {
+    background-image: url(../assets/Photos/GeorgeAtSheeranSide.jpg); /* New image on hover */
+}
+
 .container {
     text-align: center;
     background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
@@ -29,10 +33,7 @@ h1 {
     font-size: 3rem;
 }
 
-body.hover-background {
-    background-image: url(../assets/Photos/GeorgeAtSheeranSide.jpg); /* New image on hover */
-}
-
+/* Nav Styling */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -54,52 +55,6 @@ nav ul li a:hover {
     color: #3eb4ab; /* Light turquoise on hover */
 }
 
-/* Custom Josefin Sans classes */
-.josefin-sans-regular {
-    font-weight: 400;
-}
-
-.josefin-sans-bold {
-    font-weight: 700;
-}
-
-#appointment-button {
-    font-size: 1.2rem;
-    text-align: center;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: all 0.3s ease;
-}
-
-#appointment-button:hover {
-    transform: scale(0.95);
-}
-
-/* Font Awesome Social Media Icons */
-.social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px; /* Add some spacing between the icons */
-    margin-top: 20px;
-}
-
-.social-icons a {
-    margin: 0 10px;
-    font-size: 24px; /* Icon size */
-    color: #3eb4ab; /* Turquoise color */
-    text-decoration: none; /* Remove underline */
-    transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.social-icons a:hover {
-    transform: scale(1.2); /* Slightly larger on hover */
-    color: #2a9484; /* Darker turquoise on hover */
-}
-
-#appointment-button {
-    margin: 0 15px;
-}
 
 /* Media Queries for Responsive Design */
 @media only screen and (max-width: 1200px) {
