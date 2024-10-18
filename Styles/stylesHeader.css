@@ -1,0 +1,153 @@
+/* Header section styling */
+
+/* Header & Name Link */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.name_link {
+    color: #3eb4ab;
+    font-size: 2.5rem;
+    text-decoration: none;
+    transition: color 0.4s ease;
+    margin: 0 20px;
+}
+
+.name_link:hover {
+    color: rgb(102, 102, 102);
+}
+
+
+/* Social Media Icons on both sides of the header */
+.social-icons-left,
+.social-icons-right {
+    display: flex;
+    gap: 30px;
+}
+
+.social-icons-left a,
+.social-icons-right a {
+    font-size: 24px; /* Icon size */
+    color: #3eb4ab; 
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons-left a:hover,
+.social-icons-right a:hover {
+    transform: scale(1.2); 
+    color: #2a9484; 
+}
+
+
+/* Navigation links on the second row */
+.page_links {
+    display: flex;
+    justify-content: center;
+}
+
+.page_links h3 {
+    display: inline-block;
+    padding: 0 8% 0 8%;
+}
+
+.header_link {
+    color: #444;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.header_link:hover {
+    color: #3eb4ab;
+}
+
+
+/* Media Queries for smaller screens */
+@media only screen and (max-width: 768px) {
+    .name_link {
+        font-size: 1.8rem;
+    }
+
+    .header-row {
+        flex-direction: column;
+    }
+
+    .social-icons-left,
+    .social-icons-right {
+        margin-bottom: 10px;
+    }
+
+    .page_links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+/* BURGER MENU */
+/* Hide the burger menu and keep the page links visible by default */
+.burger-menu {
+    display: none;
+}
+
+.page_links {
+    display: flex;
+    gap: 15px;
+}
+
+.page_links h3 {
+    margin: 0;
+}
+
+
+/* Burger Menu - Mobile Styling */
+@media (max-width: 768px) {
+    /* Show the burger menu on smaller screens */
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Style the burger menu */
+    .burger-menu span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #444; /* Dark grey */
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+
+    /* Hide navigation links by default on mobile */
+    .page_links {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Show the links when the menu is toggled */
+    .page_links.active {
+        display: flex;
+    }
+
+    /* Adjust the spacing and sizes for mobile */
+    .page_links h3 {
+        margin-bottom: 10px;
+    }
+}
