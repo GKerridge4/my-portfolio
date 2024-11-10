@@ -33,6 +33,17 @@
         <!-- Main Header -->
         <h1 class="josefin-sans-bold">George Kerridge</h1>
         
+        <!-- Script for image change on hover -->
+        <script>
+            document.querySelector('.container').addEventListener('mouseenter', function() {
+                document.body.classList.add('hover-background');
+            });
+
+            document.querySelector('.container').addEventListener('mouseleave', function() {
+                document.body.classList.remove('hover-background');
+            });
+        </script>
+
         <!-- Page Links | Below Main Header -->
         <nav>
             <ul>
